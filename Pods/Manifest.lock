@@ -1,0 +1,12 @@
+PODS:
+  - SwiftJavascriptBridge (1.1.0)
+
+DEPENDENCIES:
+  - SwiftJavascriptBridge
+
+SPEC CHECKSUMS:
+  SwiftJavascriptBridge: 79a3229ee4ae6c833c881c87d54bf361b3c91b53
+
+PODFILE CHECKSUM: 6eca25d368d005f18c925cce7fb9437fd62b8e85
+
+COCOAPODS: 1.1.1

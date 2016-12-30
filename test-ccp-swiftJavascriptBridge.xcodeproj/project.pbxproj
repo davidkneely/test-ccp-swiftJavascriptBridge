@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33F0F605A738429A378EBA46 /* Pods_test_ccp_swiftJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AE4775EC786EC567DC60ED /* Pods_test_ccp_swiftJavascriptBridge.framework */; };
+		A5BC1EBCA4F27E8728D45CD3 /* Pods_test_ccp_swiftJavascriptBridgeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90B3D27C2C050297A63CDBC /* Pods_test_ccp_swiftJavascriptBridgeTests.framework */; };
 		A7DE12171E16CF840009EF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE12161E16CF840009EF26 /* AppDelegate.swift */; };
 		A7DE12191E16CF840009EF26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE12181E16CF840009EF26 /* ViewController.swift */; };
 		A7DE121C1E16CF840009EF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE121A1E16CF840009EF26 /* Main.storyboard */; };
@@ -26,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2512726E6E941E91D601C469 /* Pods-test-ccp-swiftJavascriptBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ccp-swiftJavascriptBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-ccp-swiftJavascriptBridge/Pods-test-ccp-swiftJavascriptBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		54AE4775EC786EC567DC60ED /* Pods_test_ccp_swiftJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ccp_swiftJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70671CBB9FBE3B6117FBF7C3 /* Pods-test-ccp-swiftJavascriptBridgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ccp-swiftJavascriptBridgeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-ccp-swiftJavascriptBridgeTests/Pods-test-ccp-swiftJavascriptBridgeTests.release.xcconfig"; sourceTree = "<group>"; };
+		873E9E8ABD9651C7592FE682 /* Pods-test-ccp-swiftJavascriptBridgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ccp-swiftJavascriptBridgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-ccp-swiftJavascriptBridgeTests/Pods-test-ccp-swiftJavascriptBridgeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7DE12131E16CF840009EF26 /* test-ccp-swiftJavascriptBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ccp-swiftJavascriptBridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DE12161E16CF840009EF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7DE12181E16CF840009EF26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		A7DE12271E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ccp-swiftJavascriptBridgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DE122B1E16CF850009EF26 /* test_ccp_swiftJavascriptBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ccp_swiftJavascriptBridgeTests.swift; sourceTree = "<group>"; };
 		A7DE122D1E16CF850009EF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90B3D27C2C050297A63CDBC /* Pods_test_ccp_swiftJavascriptBridgeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ccp_swiftJavascriptBridgeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D3D13E4E246416C52872DD /* Pods-test-ccp-swiftJavascriptBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ccp-swiftJavascriptBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-ccp-swiftJavascriptBridge/Pods-test-ccp-swiftJavascriptBridge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F0F605A738429A378EBA46 /* Pods_test_ccp_swiftJavascriptBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BC1EBCA4F27E8728D45CD3 /* Pods_test_ccp_swiftJavascriptBridgeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61FCC9F950D2A0D27776D778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54AE4775EC786EC567DC60ED /* Pods_test_ccp_swiftJavascriptBridge.framework */,
+				B90B3D27C2C050297A63CDBC /* Pods_test_ccp_swiftJavascriptBridgeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9916E7F65828153760EC406E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2512726E6E941E91D601C469 /* Pods-test-ccp-swiftJavascriptBridge.debug.xcconfig */,
+				E1D3D13E4E246416C52872DD /* Pods-test-ccp-swiftJavascriptBridge.release.xcconfig */,
+				873E9E8ABD9651C7592FE682 /* Pods-test-ccp-swiftJavascriptBridgeTests.debug.xcconfig */,
+				70671CBB9FBE3B6117FBF7C3 /* Pods-test-ccp-swiftJavascriptBridgeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A7DE120A1E16CF840009EF26 = {
 			isa = PBXGroup;
 			children = (
 				A7DE12151E16CF840009EF26 /* test-ccp-swiftJavascriptBridge */,
 				A7DE122A1E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests */,
 				A7DE12141E16CF840009EF26 /* Products */,
+				9916E7F65828153760EC406E /* Pods */,
+				61FCC9F950D2A0D27776D778 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7DE12301E16CF850009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-swiftJavascriptBridge" */;
 			buildPhases = (
+				0B73F2DF6D512BF2681B873E /* [CP] Check Pods Manifest.lock */,
 				A7DE120F1E16CF840009EF26 /* Sources */,
 				A7DE12101E16CF840009EF26 /* Frameworks */,
 				A7DE12111E16CF840009EF26 /* Resources */,
+				B5A06FF312EACAEFE96E239B /* [CP] Embed Pods Frameworks */,
+				098DE0F05F4FDC6DC284F000 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7DE12331E16CF850009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-swiftJavascriptBridgeTests" */;
 			buildPhases = (
+				946B2E51C268F6CE9B7180BE /* [CP] Check Pods Manifest.lock */,
 				A7DE12231E16CF850009EF26 /* Sources */,
 				A7DE12241E16CF850009EF26 /* Frameworks */,
 				A7DE12251E16CF850009EF26 /* Resources */,
+				20C4F2FAF13C16377EE5A111 /* [CP] Embed Pods Frameworks */,
+				962F4B5BC844577652BE3572 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,11 +185,13 @@
 					A7DE12121E16CF840009EF26 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = EPF99BXA3K;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A7DE12261E16CF850009EF26 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = EPF99BXA3K;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A7DE12121E16CF840009EF26;
 					};
@@ -195,6 +235,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		098DE0F05F4FDC6DC284F000 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ccp-swiftJavascriptBridge/Pods-test-ccp-swiftJavascriptBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B73F2DF6D512BF2681B873E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20C4F2FAF13C16377EE5A111 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ccp-swiftJavascriptBridgeTests/Pods-test-ccp-swiftJavascriptBridgeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946B2E51C268F6CE9B7180BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		962F4B5BC844577652BE3572 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ccp-swiftJavascriptBridgeTests/Pods-test-ccp-swiftJavascriptBridgeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A06FF312EACAEFE96E239B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ccp-swiftJavascriptBridge/Pods-test-ccp-swiftJavascriptBridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7DE120F1E16CF840009EF26 /* Sources */ = {
@@ -337,6 +470,7 @@
 		};
 		A7DE12311E16CF850009EF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2512726E6E941E91D601C469 /* Pods-test-ccp-swiftJavascriptBridge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EPF99BXA3K;
@@ -350,6 +484,7 @@
 		};
 		A7DE12321E16CF850009EF26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D3D13E4E246416C52872DD /* Pods-test-ccp-swiftJavascriptBridge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EPF99BXA3K;
@@ -363,6 +498,7 @@
 		};
 		A7DE12341E16CF850009EF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873E9E8ABD9651C7592FE682 /* Pods-test-ccp-swiftJavascriptBridgeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -378,6 +514,7 @@
 		};
 		A7DE12351E16CF850009EF26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70671CBB9FBE3B6117FBF7C3 /* Pods-test-ccp-swiftJavascriptBridgeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +547,7 @@
 				A7DE12321E16CF850009EF26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7DE12331E16CF850009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-swiftJavascriptBridgeTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +556,7 @@
 				A7DE12351E16CF850009EF26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

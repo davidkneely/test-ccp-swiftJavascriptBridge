@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-test-ccp-swiftJavascriptBridge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-test-ccp-swiftJavascriptBridgeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftJavascriptBridge-SwiftJavascriptBridge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftJavascriptBridge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0ADA934C876B9A3F040FCDC946F7AA15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46ECAD2EC4A045B23A1377ACEEF535AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77CEF83657575DF1FEACFBB2A7378A1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DBD10D54EBD6231CEC5971A2A8BDFEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

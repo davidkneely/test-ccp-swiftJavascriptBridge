@@ -1,0 +1,6 @@
+framework module Pods_test_ccp_swiftJavascriptBridge {
+  umbrella header "Pods-test-ccp-swiftJavascriptBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
