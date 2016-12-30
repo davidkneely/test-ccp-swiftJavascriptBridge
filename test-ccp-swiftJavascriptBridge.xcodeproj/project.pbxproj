@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7DE12171E16CF840009EF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE12161E16CF840009EF26 /* AppDelegate.swift */; };
+		A7DE12191E16CF840009EF26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE12181E16CF840009EF26 /* ViewController.swift */; };
+		A7DE121C1E16CF840009EF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE121A1E16CF840009EF26 /* Main.storyboard */; };
+		A7DE121E1E16CF840009EF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DE121D1E16CF840009EF26 /* Assets.xcassets */; };
+		A7DE12211E16CF840009EF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE121F1E16CF840009EF26 /* LaunchScreen.storyboard */; };
+		A7DE122C1E16CF850009EF26 /* test_ccp_swiftJavascriptBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE122B1E16CF850009EF26 /* test_ccp_swiftJavascriptBridgeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7DE12281E16CF850009EF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DE120B1E16CF840009EF26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DE12121E16CF840009EF26;
+			remoteInfo = "test-ccp-swiftJavascriptBridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7DE12131E16CF840009EF26 /* test-ccp-swiftJavascriptBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ccp-swiftJavascriptBridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DE12161E16CF840009EF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7DE12181E16CF840009EF26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7DE121B1E16CF840009EF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7DE121D1E16CF840009EF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7DE12201E16CF840009EF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7DE12221E16CF840009EF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DE12271E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ccp-swiftJavascriptBridgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DE122B1E16CF850009EF26 /* test_ccp_swiftJavascriptBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ccp_swiftJavascriptBridgeTests.swift; sourceTree = "<group>"; };
+		A7DE122D1E16CF850009EF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7DE12101E16CF840009EF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE12241E16CF850009EF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7DE120A1E16CF840009EF26 = {
+			isa = PBXGroup;
+			children = (
+				A7DE12151E16CF840009EF26 /* test-ccp-swiftJavascriptBridge */,
+				A7DE122A1E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests */,
+				A7DE12141E16CF840009EF26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7DE12141E16CF840009EF26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE12131E16CF840009EF26 /* test-ccp-swiftJavascriptBridge.app */,
+				A7DE12271E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DE12151E16CF840009EF26 /* test-ccp-swiftJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE12161E16CF840009EF26 /* AppDelegate.swift */,
+				A7DE12181E16CF840009EF26 /* ViewController.swift */,
+				A7DE121A1E16CF840009EF26 /* Main.storyboard */,
+				A7DE121D1E16CF840009EF26 /* Assets.xcassets */,
+				A7DE121F1E16CF840009EF26 /* LaunchScreen.storyboard */,
+				A7DE12221E16CF840009EF26 /* Info.plist */,
+			);
+			path = "test-ccp-swiftJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		A7DE122A1E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE122B1E16CF850009EF26 /* test_ccp_swiftJavascriptBridgeTests.swift */,
+				A7DE122D1E16CF850009EF26 /* Info.plist */,
+			);
+			path = "test-ccp-swiftJavascriptBridgeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7DE12121E16CF840009EF26 /* test-ccp-swiftJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DE12301E16CF850009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-swiftJavascriptBridge" */;
+			buildPhases = (
+				A7DE120F1E16CF840009EF26 /* Sources */,
+				A7DE12101E16CF840009EF26 /* Frameworks */,
+				A7DE12111E16CF840009EF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-ccp-swiftJavascriptBridge";
+			productName = "test-ccp-swiftJavascriptBridge";
+			productReference = A7DE12131E16CF840009EF26 /* test-ccp-swiftJavascriptBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7DE12261E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DE12331E16CF850009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-swiftJavascriptBridgeTests" */;
+			buildPhases = (
+				A7DE12231E16CF850009EF26 /* Sources */,
+				A7DE12241E16CF850009EF26 /* Frameworks */,
+				A7DE12251E16CF850009EF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DE12291E16CF850009EF26 /* PBXTargetDependency */,
+			);
+			name = "test-ccp-swiftJavascriptBridgeTests";
+			productName = "test-ccp-swiftJavascriptBridgeTests";
+			productReference = A7DE12271E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DE120B1E16CF840009EF26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = pair;
+				TargetAttributes = {
+					A7DE12121E16CF840009EF26 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = EPF99BXA3K;
+						ProvisioningStyle = Automatic;
+					};
+					A7DE12261E16CF850009EF26 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = EPF99BXA3K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7DE12121E16CF840009EF26;
+					};
+				};
+			};
+			buildConfigurationList = A7DE120E1E16CF840009EF26 /* Build configuration list for PBXProject "test-ccp-swiftJavascriptBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7DE120A1E16CF840009EF26;
+			productRefGroup = A7DE12141E16CF840009EF26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DE12121E16CF840009EF26 /* test-ccp-swiftJavascriptBridge */,
+				A7DE12261E16CF850009EF26 /* test-ccp-swiftJavascriptBridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7DE12111E16CF840009EF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE12211E16CF840009EF26 /* LaunchScreen.storyboard in Resources */,
+				A7DE121E1E16CF840009EF26 /* Assets.xcassets in Resources */,
+				A7DE121C1E16CF840009EF26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE12251E16CF850009EF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7DE120F1E16CF840009EF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE12191E16CF840009EF26 /* ViewController.swift in Sources */,
+				A7DE12171E16CF840009EF26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE12231E16CF850009EF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DE122C1E16CF850009EF26 /* test_ccp_swiftJavascriptBridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7DE12291E16CF850009EF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DE12121E16CF840009EF26 /* test-ccp-swiftJavascriptBridge */;
+			targetProxy = A7DE12281E16CF850009EF26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7DE121A1E16CF840009EF26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DE121B1E16CF840009EF26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7DE121F1E16CF840009EF26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DE12201E16CF840009EF26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7DE122E1E16CF850009EF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7DE122F1E16CF850009EF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7DE12311E16CF850009EF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPF99BXA3K;
+				INFOPLIST_FILE = "test-ccp-swiftJavascriptBridge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visionrunner.test-ccp-swiftJavascriptBridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7DE12321E16CF850009EF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPF99BXA3K;
+				INFOPLIST_FILE = "test-ccp-swiftJavascriptBridge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visionrunner.test-ccp-swiftJavascriptBridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A7DE12341E16CF850009EF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EPF99BXA3K;
+				INFOPLIST_FILE = "test-ccp-swiftJavascriptBridgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visionrunner.test-ccp-swiftJavascriptBridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-ccp-swiftJavascriptBridge.app/test-ccp-swiftJavascriptBridge";
+			};
+			name = Debug;
+		};
+		A7DE12351E16CF850009EF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EPF99BXA3K;
+				INFOPLIST_FILE = "test-ccp-swiftJavascriptBridgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visionrunner.test-ccp-swiftJavascriptBridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-ccp-swiftJavascriptBridge.app/test-ccp-swiftJavascriptBridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7DE120E1E16CF840009EF26 /* Build configuration list for PBXProject "test-ccp-swiftJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DE122E1E16CF850009EF26 /* Debug */,
+				A7DE122F1E16CF850009EF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DE12301E16CF850009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-swiftJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DE12311E16CF850009EF26 /* Debug */,
+				A7DE12321E16CF850009EF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7DE12331E16CF850009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-swiftJavascriptBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DE12341E16CF850009EF26 /* Debug */,
+				A7DE12351E16CF850009EF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7DE120B1E16CF840009EF26 /* Project object */;
+}
